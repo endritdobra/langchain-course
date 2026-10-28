@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.uv-cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# IDE / tooling
+.idea/
+.vscode/
+.jbeval/
+
+# Local vector stores
+chroma_db/
